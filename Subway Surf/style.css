@@ -1,0 +1,147 @@
+header {
+    background-color: rgb(255, 255, 255); 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    justify-content: space-between; 
+}
+
+body {
+    font-family: Rubik, sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+}
+
+
+h1, h2, h3 
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; 
+    color: #faac03; 
+    text-align: center;
+}
+
+
+p {
+    font-family: Georgia, serif; 
+    font-size: 14px; 
+    line-height: 1.5; 
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 0px;
+    overflow: hidden;
+    background-color:rgb(59, 2, 2);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px 80px;
+    margin: 13px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: white;
+  }
+  .logo
+   {
+    max-width: 100px; 
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+   }
+   header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+    
+   
+#image1 {
+    width: 100%; 
+    height: auto; 
+}
+
+#image3 
+{
+    width: 100%; 
+    height: auto; 
+}
+
+
+#image3 {
+    width: 100%;
+    height: auto; 
+}
+  
+
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+
+.flex-container img {
+    width: 600px; 
+    height: auto; 
+    margin: 50px; 
+}
+
+h2 {
+  text-align: center;
+}
+
+.image-container
+ {
+    position: relative;
+   
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+}
+
+.text-overlay h1 {
+    font-size: 50px; 
+}
+
+.text-overlay p {
+    font-size: 30px; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('rims.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
